@@ -63,6 +63,32 @@ class ViewController: UIViewController, MKMapViewDelegate {
         }
     }
     
+    func mapView(mapView: MKMapView!, didSelectAnnotationView view: MKAnnotationView!){
+        if(!view.annotation.isKindOfClass(MKUserLocation)){
+            let mentorView: CustomMentor = (NSBundle.mainBundle().loadNibNamed("CustomMentor", owner: self, options: nil))[0] as! CustomMentor
+            var calloutViewFrame = mentorView.frame;
+            calloutViewFrame.origin = CGPointMake(-calloutViewFrame.size.width/2 + 15, -calloutViewFrame.size.height);
+            mentorView.frame = calloutViewFrame;
+            
+            let theMentor = view.annotation as! Mentor
+            
+            mentorView.lblNickname.text = theMentor.title
+            mentorView.lblMotto.text = theMentor.motto
+            mentorView.lblHastags.text = theMentor.hashtags
+            mentorView.lblPoints.text = theMentor.profilePoint
+            mentorView.profileImage.image = UIImage(named: theMentor.image)
+      
+            view.addSubview(mentorView)
+            mentorView.bringSubviewToFront(view)
+        }
+    }
+    
+    func mapView(mapView: MKMapView!, didDeselectAnnotationView view: MKAnnotationView!)
+    {
+        for childView:AnyObject in view.subviews{
+            childView.removeFromSuperview();
+        }
+    }
     
 }
 

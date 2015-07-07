@@ -16,6 +16,16 @@
 		19E23F5E1B4BB63F003CDA6E /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E23F5D1B4BB63F003CDA6E /* Mentor.swift */; };
 		19E23F601B4BB6C3003CDA6E /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E23F5F1B4BB6C3003CDA6E /* JSON.swift */; };
 		19E23F621B4BB8CF003CDA6E /* MentorList.json in Resources */ = {isa = PBXBuildFile; fileRef = 19E23F611B4BB8CF003CDA6E /* MentorList.json */; };
+		19FF0AF41B4C512E000D341A /* CustomMentor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0AF31B4C512E000D341A /* CustomMentor.xib */; };
+		19FF0AF81B4C52C5000D341A /* CustomMentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF0AF71B4C52C5000D341A /* CustomMentor.swift */; };
+		19FF0B121B4C5789000D341A /* Mentor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B0A1B4C5789000D341A /* Mentor1.png */; };
+		19FF0B131B4C5789000D341A /* Mentor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B0B1B4C5789000D341A /* Mentor2.png */; };
+		19FF0B141B4C5789000D341A /* Mentor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B0C1B4C5789000D341A /* Mentor3.png */; };
+		19FF0B151B4C5789000D341A /* Mentor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B0D1B4C5789000D341A /* Mentor4.png */; };
+		19FF0B161B4C5789000D341A /* Mentor5.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B0E1B4C5789000D341A /* Mentor5.png */; };
+		19FF0B171B4C5789000D341A /* Mentor6.png in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B0F1B4C5789000D341A /* Mentor6.png */; };
+		19FF0B181B4C5789000D341A /* Mentor7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B101B4C5789000D341A /* Mentor7.jpeg */; };
+		19FF0B191B4C5789000D341A /* Mentor8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19FF0B111B4C5789000D341A /* Mentor8.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,16 @@
 		19E23F5D1B4BB63F003CDA6E /* Mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		19E23F5F1B4BB6C3003CDA6E /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		19E23F611B4BB8CF003CDA6E /* MentorList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MentorList.json; sourceTree = "<group>"; };
+		19FF0AF31B4C512E000D341A /* CustomMentor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMentor.xib; sourceTree = "<group>"; };
+		19FF0AF71B4C52C5000D341A /* CustomMentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMentor.swift; sourceTree = "<group>"; };
+		19FF0B0A1B4C5789000D341A /* Mentor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mentor1.png; sourceTree = "<group>"; };
+		19FF0B0B1B4C5789000D341A /* Mentor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mentor2.png; sourceTree = "<group>"; };
+		19FF0B0C1B4C5789000D341A /* Mentor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mentor3.png; sourceTree = "<group>"; };
+		19FF0B0D1B4C5789000D341A /* Mentor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mentor4.png; sourceTree = "<group>"; };
+		19FF0B0E1B4C5789000D341A /* Mentor5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mentor5.png; sourceTree = "<group>"; };
+		19FF0B0F1B4C5789000D341A /* Mentor6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mentor6.png; sourceTree = "<group>"; };
+		19FF0B101B4C5789000D341A /* Mentor7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mentor7.jpeg; sourceTree = "<group>"; };
+		19FF0B111B4C5789000D341A /* Mentor8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mentor8.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,7 @@
 		19E23F3A1B4BB47C003CDA6E /* myAmt */ = {
 			isa = PBXGroup;
 			children = (
+				19FF0B1A1B4C578B000D341A /* MentorImages */,
 				19E23F3D1B4BB47C003CDA6E /* AppDelegate.swift */,
 				19E23F3F1B4BB47C003CDA6E /* ViewController.swift */,
 				19E23F411B4BB47C003CDA6E /* Main.storyboard */,
@@ -91,6 +112,8 @@
 				19E23F3B1B4BB47C003CDA6E /* Supporting Files */,
 				19E23F5D1B4BB63F003CDA6E /* Mentor.swift */,
 				19E23F5F1B4BB6C3003CDA6E /* JSON.swift */,
+				19FF0AF31B4C512E000D341A /* CustomMentor.xib */,
+				19FF0AF71B4C52C5000D341A /* CustomMentor.swift */,
 				19E23F611B4BB8CF003CDA6E /* MentorList.json */,
 			);
 			path = myAmt;
@@ -119,6 +142,21 @@
 				19E23F521B4BB47D003CDA6E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19FF0B1A1B4C578B000D341A /* MentorImages */ = {
+			isa = PBXGroup;
+			children = (
+				19FF0B0A1B4C5789000D341A /* Mentor1.png */,
+				19FF0B0B1B4C5789000D341A /* Mentor2.png */,
+				19FF0B0C1B4C5789000D341A /* Mentor3.png */,
+				19FF0B0D1B4C5789000D341A /* Mentor4.png */,
+				19FF0B0E1B4C5789000D341A /* Mentor5.png */,
+				19FF0B0F1B4C5789000D341A /* Mentor6.png */,
+				19FF0B101B4C5789000D341A /* Mentor7.jpeg */,
+				19FF0B111B4C5789000D341A /* Mentor8.jpeg */,
+			);
+			name = MentorImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,10 +239,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FF0B151B4C5789000D341A /* Mentor4.png in Resources */,
+				19FF0B121B4C5789000D341A /* Mentor1.png in Resources */,
 				19E23F621B4BB8CF003CDA6E /* MentorList.json in Resources */,
 				19E23F431B4BB47C003CDA6E /* Main.storyboard in Resources */,
+				19FF0B181B4C5789000D341A /* Mentor7.jpeg in Resources */,
+				19FF0AF41B4C512E000D341A /* CustomMentor.xib in Resources */,
 				19E23F481B4BB47C003CDA6E /* LaunchScreen.xib in Resources */,
+				19FF0B131B4C5789000D341A /* Mentor2.png in Resources */,
+				19FF0B141B4C5789000D341A /* Mentor3.png in Resources */,
+				19FF0B171B4C5789000D341A /* Mentor6.png in Resources */,
+				19FF0B161B4C5789000D341A /* Mentor5.png in Resources */,
 				19E23F451B4BB47C003CDA6E /* Images.xcassets in Resources */,
+				19FF0B191B4C5789000D341A /* Mentor8.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FF0AF81B4C52C5000D341A /* CustomMentor.swift in Sources */,
 				19E23F5E1B4BB63F003CDA6E /* Mentor.swift in Sources */,
 				19E23F401B4BB47C003CDA6E /* ViewController.swift in Sources */,
 				19E23F3E1B4BB47C003CDA6E /* AppDelegate.swift in Sources */,
@@ -421,6 +469,7 @@
 				19E23F591B4BB47D003CDA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19E23F5A1B4BB47D003CDA6E /* Build configuration list for PBXNativeTarget "myAmtTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +478,7 @@
 				19E23F5C1B4BB47D003CDA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

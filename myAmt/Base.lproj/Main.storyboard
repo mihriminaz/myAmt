@@ -9,9 +9,10 @@
         <scene sceneID="8UY-BI-m4k">
             <objects>
                 <navigationController id="aQd-4V-Bxu" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gB4-Ge-cyn">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="gB4-Ge-cyn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.28235294119999998" green="0.70588235290000001" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Sdi-jk-DMP"/>
@@ -19,9 +20,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHG-z8-1hO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-806" y="170"/>
+            <point key="canvasLocation" x="-475" y="199"/>
         </scene>
-        <!--View Controller-->
+        <!--Find a Mentor-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="myAmt" customModuleProvider="target" sceneMemberID="viewController">
@@ -45,7 +46,7 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="0mx-tU-gs5" secondAttribute="bottom" id="ga1-TK-0bM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Ons-UC-yK5"/>
+                    <navigationItem key="navigationItem" title="Find a Mentor" id="Ons-UC-yK5"/>
                     <connections>
                         <outlet property="mapView" destination="0mx-tU-gs5" id="XE1-vr-ZQk"/>
                     </connections>

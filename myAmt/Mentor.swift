@@ -17,14 +17,16 @@ class Mentor: NSObject, MKAnnotation {
     let profilePoint: String
     let availableNow: Bool
     let coordinate: CLLocationCoordinate2D
+    let image: String
     
-    init(title: String, motto: String, hashtags: String, profilePoint: String, availableNow: Bool, coordinate: CLLocationCoordinate2D) {
+    init(title: String, motto: String, hashtags: String, profilePoint: String, availableNow: Bool, coordinate: CLLocationCoordinate2D, image: String) {
         self.title = title
         self.motto = motto
         self.hashtags = hashtags
         self.profilePoint = profilePoint
         self.availableNow = availableNow
         self.coordinate = coordinate
+        self.image = image
         
         super.init()
     }
@@ -40,13 +42,10 @@ class Mentor: NSObject, MKAnnotation {
         let longitude = coordinateObject["longitude"]?.double
         let coordinate = CLLocationCoordinate2D(latitude: latitude!, longitude: longitude!)
         let availableNow = json["availableNow"]?.bool
+        let image = json["image"]?.string
         
         // 3
-        return Mentor(title: title!, motto: motto!, hashtags: hashtags!, profilePoint: profilePoint!, availableNow: availableNow!, coordinate: coordinate)
-    }
-    
-    var subtitle: String {
-        return title
+        return Mentor(title: title!, motto: motto!, hashtags: hashtags!, profilePoint: profilePoint!, availableNow: availableNow!, coordinate: coordinate, image: image!)
     }
     
     // MARK: - MapKit related methods
@@ -62,14 +61,14 @@ class Mentor: NSObject, MKAnnotation {
     }
     
     // annotation callout opens this mapItem in Maps app
-    func mapItem() -> MKMapItem {
-        let addressDict = [String(kABPersonAddressStreetKey): self.subtitle]
-        let placemark = MKPlacemark(coordinate: self.coordinate, addressDictionary: addressDict)
-        
-        let mapItem = MKMapItem(placemark: placemark)
-        mapItem.name = self.title
-        
-        return mapItem
-    }
+//    func mapItem() -> MKMapItem {
+//        let addressDict = [String(kABPersonAddressStreetKey): self.subtitle]
+//        let placemark = MKPlacemark(coordinate: self.coordinate, addressDictionary: addressDict)
+//        
+//        let mapItem = MKMapItem(placemark: placemark)
+//        mapItem.name = self.title
+//        
+//        return mapItem
+//    }
     
 }

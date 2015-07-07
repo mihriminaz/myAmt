@@ -1,0 +1,81 @@
+{
+    "mentorArray": [
+                    {
+                    "nickname": "Daniel",
+                    "motto": "I am here to help",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "55%",
+                    "availableNow": true,
+                    "coordinate": {
+                    "longitude": 13.3833,
+                    "latitude": 52.5117
+                    }
+                    },
+                    {
+                    "nickname": "Hans",
+                    "motto": "Helping is wunderbach",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "75%",
+                    "availableNow": true,
+                    "coordinate": {
+                    "longitude": 13.3835,
+                    "latitude": 52.6117
+                    }
+                    },
+                    {
+                    "nickname": "Mihri",
+                    "motto": "Mihri",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "90%",
+                    "availableNow": true,
+                    "coordinate": {
+                    "longitude": 13.3839,
+                    "latitude": 52.5317
+                    }
+                    },
+                    {
+                    "nickname": "Mihri",
+                    "motto": "Mihri",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "65%",
+                    "availableNow": false,
+                    "coordinate": {
+                    "longitude": 13.3863,
+                    "latitude": 52.5157
+                    }
+                    },
+                    {
+                    "nickname": "Mihri",
+                    "motto": "Mihri",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "75%",
+                    "availableNow": true,
+                    "coordinate": {
+                    "longitude": 13.3963,
+                    "latitude": 52.5817
+                    }
+                    },
+                    {
+                    "nickname": "Mihri",
+                    "motto": "Mihri",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "80%",
+                    "availableNow": false,
+                    "coordinate": {
+                    "longitude": 13.3763,
+                    "latitude": 52.5917
+                    }
+                    },
+                    {
+                    "nickname": "Mihri",
+                    "motto": "Mihri",
+                    "hashtags": "#hospital#education",
+                    "profilePoint": "95%",
+                    "availableNow": true,
+                    "coordinate": {
+                    "longitude": 13.3864,
+                    "latitude": 52.5417
+                    }
+                    }
+                    ]
+}
